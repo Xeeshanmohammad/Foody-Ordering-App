@@ -5,8 +5,8 @@ import UserClass from './UserClass'
 function About() {
   return (
     <div>
-        <User name = "Zeeshan" location = "Mau" email ="UP@gmail.com" />
-        <UserClass name = "Mohammad" location = "UP" email ="mau@gmail.com"/>
+        <User name = "Xeesha" location = "Abu Dhabi" email ="uae@gmail.com" />
+        <UserClass name = "Malik" location = "California" email ="california@gmail.com"/>
     </div>
   )
 }
