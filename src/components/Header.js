@@ -12,6 +12,8 @@ export const Header = () => {
 const cartItems = useSelector((store)=>store.cart.items)
 
   return (
+    <div >
+      
     <div className="flex justify-between bg-green-200 shadow-2xl m-2 sm:bg-pink-100" >
       <div className="logo-header">
         <img className = "w-24 m-4 rounded-full "  src={LOGO_URL} alt="logo" />
@@ -44,6 +46,8 @@ const cartItems = useSelector((store)=>store.cart.items)
           </button>
         </ul>
       </div>
+    </div>
+
     </div>
   );
 };
