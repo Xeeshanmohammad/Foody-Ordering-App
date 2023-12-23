@@ -6,13 +6,12 @@
     
     <meta name="viewport" content="width=device-width, initial-scale=1.0">   
     <title>Dive-In-Depth</title>
-    <link rel="icon" href="https://media.istockphoto.com/id/1346682731/vector/empty-coffee-cup-silhouette-black-vector-illustration-isolated-on-white-background.jpg?s=1024x1024&w=is&k=20&c=cZI3xKYAn9P2fj3Xp2yI7gywkeOAbDUFILvnBW0_OVM="  type="image/x-icon">
+    <link rel="icon" href="./images/logo.jpg" type="image/x-icon">
     <link rel="stylesheet" href="./index.css">
 </head>
 <body>
     <!-- <div>My self</div> -->
     <div id="root">
-        <h1>Zeeshan is here</h1>
     </div> 
     <!--<div>Your self</div>   -->
     <!-- <script>
@@ -27,6 +26,45 @@
     <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
      -->
     
-    <script type="module" src="./Index.js"></script>
+    <script type="module" src="./src/App.js"></script>
 </body>
 </html>
+
+<!-- 
+const AppLayout = () => {
+    return (
+  
+      <div className="app">
+        <Layout />
+        <Outlet />
+      </div>
+  
+    );
+  };
+  
+  
+  const reactRouter = createBrowserRouter([
+    {
+      path: "/",
+      element: <AppLayout />,
+      children: [
+        { path: "/", element: <Home /> },
+        { path: "/about", element: <About /> },
+        { path: "/contact", element: <Contact /> },
+        { path: "/joblistpage", element: <Joblistpage /> },
+         { path: "/jobdetailspage", element: <Jobdetailspage /> },
+         { path: "/jobcategorypages", element: <Jobcatogorypage /> },
+         { path: "/testimonialpage", element: <Testimonialpage /> },
+  
+      ],
+      errorElement: <Pagenotfound />,
+    },
+  ]);
+  
+  
+  
+  
+  const root = ReactDOM.createRoot(document.getElementById("root"));
+  root.render(<RouterProvider router={reactRouter} />); -->
+  
+  
